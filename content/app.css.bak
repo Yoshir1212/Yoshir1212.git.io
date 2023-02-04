@@ -2,11 +2,24 @@ body {
 	background-image: url('https://spiritsandsuch.com/wp-content/uploads/2019/02/repeatingbackground.jpg');
 	background-position: top center;
 	background-repeat: repeat;
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: "Comic Sans MS", "ChalkboardSE-Light", cursive, sans-serif;
 	color: #000000;
 	font-size: 16px;
 	line-height: 1.5;
 
+}
+
+.container{
+	
+	font-family: "Comic Sans MS", "ChalkboardSE-Light", cursive, sans-serif;
+
+
+
+}
+
+.service_img{
+	width: 5000px ;
+	height: 389px;
 }
 
 h1, h2, h3, .navbar-brand,
@@ -22,7 +35,7 @@ h1 {}
 h2 {}
 h3 {}
 
-btn btn-primary{
+button{
 	background-color: #00b4b4;
 	color: #ffffff;
 	padding: 8px 12px;
@@ -31,4 +44,23 @@ btn btn-primary{
 	text-transform: uppercase;
 	cursor: pointer;
 	border: outset;
+}
+
+.rainbow {
+  height: 15px;
+  width: 100%;
+  border: none;
+ background-image: -webkit-gradient(linear, 0 0, 100% 0, from(red), color-stop(0.08, orange), color-stop(0.17, yellow), color-stop(0.25, green), color-stop(0.33, blue), color-stop(0.42, indigo), color-stop(0.5, violet), color-stop(0.58, indigo), color-stop(0.67, blue), color-stop(0.75, green), color-stop(0.83, yellow), color-stop(0.92, orange), to(red));
+ background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+ background-image: linear-gradient(left, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+  background-size: 50% auto;
+  
+ -webkit-animation: unicorn 2.5s forwards linear infinite;
+}
+
+@-webkit-keyframes unicorn {
+  from { background-position: top left; }
+  to { background-position: top  right; }
 }
